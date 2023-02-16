@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+      <nav class="cabecalho__menu" id="itens">
+        <a href="index.html" class="cabecalho__menu__link">Home</a>
+        <a href="projetos.html" class="cabecalho__menu__link">Projetos</a>
+        <a href="curriculo.html" class="cabecalho__menu__link">Currículo</a>
+        <a href="about.html" class="cabecalho__menu__link">Sobre Mim</a>
+      </nav>
+    </header>
+
+    <main class="apresentacao">
+      <section class="apresentacao__titulo-imagem">
+        <h1 class="apresentacao__conteudo__titulo">Portfolio Fernando Alisson</h1>
+        <img class="imagem-perfil " src="./img/me.png" alt="foto do Fernando Alisson">
+      </section>
+
+      <section class="apresentacao__conteudo">
+        <p class="apresentacao__conteudo__texto">
+          Olá! Sou o Fernando Alisson, desenvolvedor Front-End me especializando em <strong class="texto-destaque">React, HTML e CSS</strong>. Fiz esse portfólio para mostrar alguns projetos que desenvolvi e os que vou desenvolver futuramente, quero deixar toda a minha jornada de estudos aqui para que eu consiga ver minha evolução como desenvolvedor. Estou buscando uma oportunidade como desenvolvedor front-end júnior ou estágio.
+        </p>
+        <p class="apresentacao__conteudo__texto">
+          Obrigado pela visita.
+        </p>
+
+        <div class="apresentacao__links">
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais:</h2>
+          <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/fernando-alisson-b37158208/">
+            <img src="./assets/linkedin.png" alt="logo do LinkedIn">
+            LinkedIn
+          </a>
+          <a class="apresentacao__links__navegacao" href="https://github.com/FernandoAlisson">
+            <img src="./assets/github.png" alt="logo do GitHub">
+            GitHub
+          </a>
+          <a class="apresentacao__links__navegacao" href="https://www.instagram.com/nandoalisson27">
+            <img src="./assets/instagram.png" alt="logo do Instagram">
+            Instagram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      Desenvolvido por Fernando Alisson
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
